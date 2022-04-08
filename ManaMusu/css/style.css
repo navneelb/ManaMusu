@@ -1,0 +1,82 @@
+nav a {
+  color: black;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#learn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav .btn_1 {
+  background-color: rgb(15, 170, 15);
+  border-radius: 4px;
+  padding: 5px 15px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.container #info {
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-evenly;
+}
+.btn {
+  padding: 12px 30px;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 500;
+  background-color: rgb(15, 170, 15);
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+#Student {
+  padding: 12px 30px;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 500;
+  background-color: rgb(15, 170, 15);
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+}
+h3 span {
+  justify-content: center;
+  color: rgb(15, 170, 15);
+}
+
+#disk {
+  border: solid;
+  border: white;
+}
+.card {
+  background-color: #f5f5f5;
+  width: 100%;
+  border: 5px solid rgb(245, 245, 245);
+  border-radius: 5%;
+  box-shadow: gray;
+}
+.fa {
+  color: rgb(15, 170, 15);
+}
+#to {
+  background-color: rgb(44, 43, 43);
+  padding-top: 15%;
+  padding-bottom: 5%;
+  margin-top: -10%;
+}
+@media (min-width: 300px) and (max-width: 800px) {
+  #img {
+    display: none;
+  }
+}
